@@ -1,0 +1,83 @@
+/* Main Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F8F8F8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #663C90;
+    font-size: 36px;
+}
+
+.header-description {
+    font-size: 18px;
+    color: #D65DB1;
+}
+
+.weather-section, .outfit-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #663C90;
+}
+
+button {
+    background-color: #663C90;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #D65DB1;
+}
+
+#outfit {
+    text-align: center;
+}
+
+#outfit-image {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+#outfit-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#outfit-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #663C90;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#outfit-link:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Forecast</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Linking to external CSS -->
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Fashion Forecast</h1>
+            <p class="header-description">Effortless Outfits, Whatever the Weather</p>
+        </header>
+
+        <section class="weather-section">
+            <h2>Current Weather</h2>
+            <div id="weather-details">
+                <p>Location: <span id="location"></span></p>
+                <p>Temperature: <span id="temperature"></span>°C</p>
+                <p>Condition: <span id="condition"></span></p>
+                <p>Precipitation: <span id="precipitation"></span></p>
+            </div>
+        </section>
+
+        <section class="outfit-section">
+            <h2>Recommended Outfit</h2>
+            <div id="outfit">
+                <img id="outfit-image" alt="Outfit">
+                <p id="outfit-title"></p>
+                <a id="outfit-link" href="#">Buy Now</a>
+            </div>
+        </section>
+
+        <footer>
+            <button id="use-location-btn">Use My Current Location</button>
+            <button id="search-city-btn">Search a City</button>
+        </footer>
+    </div>
+
+    <script src="script.js"></script> <!-- Linking to external JavaScript -->
+</body>
+</html>
